@@ -1,0 +1,26 @@
+name: usecase
+description: A new Flutter project.
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  domain:
+    path: ../domain
+    
+  gateway:
+    path: ../gateway
+
+
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.4
+
+flutter:
